@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru" class="webp">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Inventory cost</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<nav>
+				<div class="login">
+					<a
+						href="https://steamcommunity.com/openid/login"
+						class="btn"
+						>Войти через STEAM</a
+					>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="backphoto">
+				<h1>Your inventory cost</h1>
+				<input
+					type="text"
+					id="searchInput"
+					placeholder="Full URL/SteamID/SteamID64/Status"
+				/>
+				<br />
+				<button onclick="search()">Узнать стоимость</button>
+
+				<div id="results"></div>
+
+				<div class="profile-case">
+					<img
+						src="https://example.com/profile-icon.png"
+						alt="Profile Icon"
+					/>
+					<div>
+						<div id="nickname">Имя Пользователя</div>
+						<div id="total-cost">Общая стоимость: $0.00</div>
+					</div>
+				</div>
+				<div class="items-case">
+					<h2>Ваш инвентарь</h2>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="footer-contact-block">
+				<a href="#" class="nolink">Русский</a>
+				<a href="#" class="nolink">English</a>
+			</div>
+		</footer>
+	</body>
+</html>
