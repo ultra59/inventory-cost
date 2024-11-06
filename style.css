@@ -64,14 +64,14 @@ button:hover {
 	background-color: rgb(0, 191, 255);
 }
 .backphoto {
-	background: url("imgs/photo_5456211781962825323_y.jpg") center center/ cover
-		no-repeat;
+	background: url("imgs/photo_5287680288924756506_y.jpg") center center/ cover
+		no-repeat fixed;
 	height: 100vh;
 }
 
 .profile-case {
 	color: rgb(243, 245, 243);
-	background-color: #55555594;
+	background-color: #9e9e9e94;
 	border-radius: 10px;
 	padding: 30px;
 	display: flex;
